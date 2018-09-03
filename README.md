@@ -3,7 +3,10 @@
 ## Introduction
 Yuehongxiao Ma's personal website. The address might change in the future.
 
-## Update 
+## Impotrant Update 
+#### -08/31/2018-
+##### Future Plan Changed
+
 #### -08/27/2018-
 ##### uploaded the frame ver. website
 * [PC] Homepage*1, Resume page*1, Current page*1, Vistor page*1 
@@ -14,4 +17,5 @@ Yuehongxiao Ma's personal website. The address might change in the future.
 * Add "back to top" Button
 * Fix phone ver. menu bar
 * Add slide down menu bar for the proejcts page
-* Fix the websites' main body layout(especially phone ver.
+* New plan: Two big Module, Resume overview (Index.html) & Detailed info (Index_info.html)
+* Overview page use simple resume bootstrap, info page use material bootstrap
