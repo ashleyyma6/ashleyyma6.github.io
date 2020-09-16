@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yuehongxiao (Ashley) Ma - Project1 Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap-social.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./javascript/jquery-3.5.1.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./javascript/popper.min.js"></script>
+  <script src="./javascript/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./javascript/script.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Yuehongxiao (Ashley) Ma</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Project
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="prj1.html">Image Crawler</a>
+              <a class="dropdown-item" href="prj2.html">Malware Classification</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto mt-5">
+    <h1 class="text-center py-5">Image Crawler</h1>
+    <p class="text-center">February 2020 - August 2020</p>
+    <hr>
+
+    <ul>
+      <li>Built a web application with <strong>PHP, Python, HTML, and JavaScript</strong>, allow users to crawl images using a list of keywords</li>
+      <li>Provided an interface for users to manually filter unqualified searching results and a retrieval script</li>
+      <li>Hosted the application on <strong>Windows Server with AWS LightSail</strong></li>
+      <li>Set up a database using <strong>AWS S3</strong> to save images and keywords automatically</li>
+    </ul>
+    <hr>
+  </div>
+
+  <section name="project" class="page-section py-5 bg-secondary text-white">
+    <div class="container mx-auto">
+      <h2 class="text-center py-5">Demo Video</h1>
+        <div class="embed-responsive embed-responsive-16by9 py-5">
+          <iframe class="embed-responsive-item" src="./video/crawler_demo.mp4"></iframe>
+        </div>
+        <br>
+        <div class="embed-responsive embed-responsive-16by9 py-5">
+          <iframe class="embed-responsive-item" src="./video/retrivalScript_demo.mp4"></iframe>
+        </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
